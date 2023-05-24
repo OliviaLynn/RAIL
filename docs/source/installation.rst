@@ -45,9 +45,6 @@ Note: Running RAIL on a Mac M1+ will require installing healpy via conda.
 
 Custom installations include ``rail_ties`` and at least one RAIL code.
 
-*((is this right? we can't do anything with rail ties, to double check? even 
-also with rail-pipelines?))*
-
 Currently supported codes are:
 
 * `rail_bpz <https://github.com/LSSTDESC/rail_bpz>`_
@@ -56,11 +53,7 @@ Currently supported codes are:
 * And?
 
 Users may then add `rail_pipelines <https://github.com/LSSTDESC/rail_pipelines>`_ as
-well. RAIL Pipelines is a RAIL package that contains various RAIL pipeline demos.
-
-Users can browse the repository to copy what sections or entire pipelines they 
-wish, or download the entire package via ``pip install pz-rail-pipelines``.
-
+well to to gain access to a selection of pre-made RAIL pipeline demos.
 
 Example: Golden Spike custom installation
 =========================================
