@@ -28,16 +28,11 @@ The greatest strength of RAIL is its extensibility; those interested in contribu
 
 ## Citing RAIL
 
-This code, while publicly developed on GitHub and pip-installable, has not yet been released by DESC and is still under active development. 
-Our release of v1.0 will be accompanied by a journal paper describing the development and validation of RAIL.
-If you make use of the ideas or software here, you must cite this repository <https://github.com/LSSTDESC/RAIL> with the [Zenodo DOI](https://doi.org/10.5281/zenodo.7017551).
-Please consider also inviting the authors of the code to join publications resulting from your use of RAIL by [making an issue](https://github.com/LSSTDESC/RAIL/issues/new/choose).
-You are welcome to re-use the code, which is open source and available under terms consistent with our [LICENSE](https://github.com/LSSTDESC/RAIL/blob/main/LICENSE) [(BSD 3-Clause)](https://opensource.org/licenses/BSD-3-Clause).
-
-### Citing specific codes accessed through RAIL
-
-Several of the codes included within the RAIL ecosystem, e.g. BPZ, Delight, and FlexZBoost, are pre-existing codes that have been included in RAIL.
-If you use those specific codes, you must also cite the appropriate papers for each code used, a convenient list of which may be found in the [Citing RAIL](https://lsstdescrail.readthedocs.io/en/stable/source/citing.html) section on ReadTheDocs.
+RAIL is open source and may be used according to the terms of its [LICENSE](https://github.com/LSSTDESC/RAIL/blob/main/LICENSE) [(BSD 3-Clause)](https://opensource.org/licenses/BSD-3-Clause).
+If you make use of the ideas or software here in any publication, you must cite this repository <https://github.com/LSSTDESC/RAIL> as "LSST-DESC PZ WG (in prep)" with the [Zenodo DOI](https://doi.org/10.5281/zenodo.7017551).
+Please consider also inviting the developers as co-authors on publications resulting from your use of RAIL by [making an issue](https://github.com/LSSTDESC/RAIL/issues/new/choose).
+Additionally, several of the codes accessible through the RAIL ecosystem must be cited if used in a publication.
+A convenient list of what to cite may be found in the [Citing RAIL](https://lsstdescrail.readthedocs.io/en/stable/source/citing.html) section on ReadTheDocs.
 
 ## Future Plans
 
