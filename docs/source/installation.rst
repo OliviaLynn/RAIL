@@ -2,17 +2,16 @@
 Installation
 ############
 
-If you intend to use rail in exploratory mode with notebooks, see :ref:`RAIL 
-Quickstart`.
+To enable multiple science application, RAIL supports multiple user interfaces and thus three quick-start guides to help you get set up with the one(s) that best meet your needs.
 
-If you intend to contribute to RAIL code or perform other development work, see 
-:ref:`Installing RAIL from Source`.
+If you intend to use RAIL to explore different estimators on a variety of mock or real data and assess the results in Jupyter notebooks, see :ref:`RAIL Quickstart for data exploration`.
 
-If you're ready to run photo-z pipelines at scale, see :ref:`Custom Installation 
-Instructions`.
+If you intend to contribute to RAIL by adding new ways to generate mock data, estimate redshift information, or assess the quality for your use case, see :ref:`RAIL Quickstart for prospective developers`.
 
-RAIL Quickstart
-***************
+If you're ready to run specific analysis pipelines at scale for a survey, see :ref:`RAIL Quickstart for at-scale pipeline execution`.
+
+RAIL Quickstart for data exploration
+************************************
 
 Create a new conda environment:
 
@@ -39,8 +38,8 @@ Now, you can install RAIL:
 
 *Include a couple of lines about running notebooks*
 
-Installing RAIL from Source
-***************************
+RAIL Quickstart for prospective developers
+******************************************
 
 Create a new conda environment:
 
@@ -66,8 +65,8 @@ in editable mode:
     cd RAIL
     pip install -e .
 
-Custom Installation Instructions
-************************************
+RAIL Quickstart for at-scale pipeline execution
+***********************************************
 
 Custom installations include ``rail_ties``, plus any number of 
 additional RAIL packages. 
