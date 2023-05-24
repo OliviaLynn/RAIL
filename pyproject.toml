@@ -5,8 +5,10 @@ readme = "README.rst"
 requires-python = ">=3.8"
 license = { file = "LICENSE" }
 authors = [
-    { name = "The LSST DESC PZ WG", email = "aimalz@nyu.edu" }
+    { name = "The LSST-DESC PZ WG", email = "aimalz@nyu.edu" }
 ]
+long_description = { file = "README.md" }
+
 classifiers = [
     "Development Status :: 4 - Beta",
     "License :: OSI Approved :: MIT License",
@@ -150,3 +152,4 @@ strict_equality = true
 warn_redundant_casts = true
 warn_unreachable = true
 warn_unused_ignores = true
+
