@@ -31,8 +31,8 @@ sys.modules['flexcode'].loss_functions.cde_loss = MagicMock
 # -- Project information -----------------------------------------------------
 
 project = 'RAIL'
-copyright = '2019-2021, LSST DESC RAIL Contributors'
-author = 'LSST DESC RAIL Contributors'
+copyright = '2019-2023, LSST-DESC PZ WG RAIL Topical Team'
+author = 'LSST-DESC PZ WG RAIL Topical Team'
 
 # The short X.Y version
 from rail.core import _version
