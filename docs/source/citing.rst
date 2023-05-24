@@ -2,9 +2,9 @@
 Citing RAIL
 ***********
 
-RAIL is open source and may be used according to the terms of its [LICENSE](https://github.com/LSSTDESC/RAIL/blob/main/LICENSE) [(BSD 3-Clause)](https://opensource.org/licenses/BSD-3-Clause).
-If you make use of the ideas or software here in any publication, you must cite this repository <https://github.com/LSSTDESC/RAIL> as "LSST-DESC PZ WG (in prep)" with the [Zenodo DOI](https://doi.org/10.5281/zenodo.7017551).
-Please consider also inviting the developers as co-authors on publications resulting from your use of RAIL by [making an issue](https://github.com/LSSTDESC/RAIL/issues/new/choose).
+RAIL is open source and may be used according to the terms of its `LICENSE <https://github.com/LSSTDESC/RAIL/blob/main/LICENSE>`_ `(BSD 3-Clause) <https://opensource.org/licenses/BSD-3-Clause>`_.
+If you make use of the ideas or software here in any publication, you must cite this repository <https://github.com/LSSTDESC/RAIL> as "LSST-DESC PZ WG (in prep)" with the `Zenodo DOI <https://doi.org/10.5281/zenodo.7017551>`_.
+Please consider also inviting the developers as co-authors on publications resulting from your use of RAIL by `making an issue <https://github.com/LSSTDESC/RAIL/issues/new/choose>`_.
 
 The following list provides the necessary references for external codes accessible through the RAIL ecosystem, which must be cited as follows if those methods are used in a publication:
 
