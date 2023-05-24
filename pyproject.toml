@@ -7,7 +7,6 @@ license = { file = "LICENSE" }
 authors = [
     { name = "The LSST-DESC PZ WG", email = "aimalz@nyu.edu" }
 ]
-long_description = { file = "README.md" }
 
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -41,6 +40,9 @@ dependencies = [
     "somoclu",
     "deprecated",
 ]
+
+[metadata]
+long_description = { file = "README.md" }
 
 [project.optional-dependencies]
 dev = [
