@@ -8,7 +8,7 @@ If you intend to use RAIL to explore different estimators on a variety of mock o
 
 If you intend to contribute to RAIL by adding new ways to generate mock data, estimate redshift information, or assess the quality for your use case, see :ref:`RAIL Quickstart for prospective developers`.
 
-If you're ready to run specific analysis pipelines at scale for a survey, see :ref:`RAIL Quickstart for at-scale pipeline execution`.
+If you're ready to run specific analysis pipelines at scale from the command line, see :ref:`RAIL Quickstart for at-scale pipeline execution`.
 
 RAIL Quickstart for data exploration
 ************************************
