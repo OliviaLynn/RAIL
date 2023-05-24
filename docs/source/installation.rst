@@ -68,25 +68,23 @@ in editable mode:
 RAIL Quickstart for at-scale pipeline execution
 ***********************************************
 
-Custom installations include ``rail_ties``, plus any number of 
-additional RAIL packages. 
-
 Note: Running RAIL on a Mac M1+ will require installing healpy via conda.
 
-RAIL Pipelines
-==============
+Custom installations include:
 
-Running a RAIL pipeline from command line requires the ``rail_pipelines`` package, as well.
-
-Individual RAIL Codes
-=====================
-
-RAIL codes may be installed individually by name.
+* ``rail_ties``
+* optionally: ``rail_pipelines``, if running a pipeline from command line
+* optionally: any number of individual RAIL codes
 
 Currently supported codes are:
 
+* `rail_bpz <https://github.com/LSSTDESC/rail_bpz>`_
+* `rail_flexzboost <https://github.com/LSSTDESC/rail_flexzboost>`_
+* `rail_delight <https://github.com/LSSTDESC/rail_delight>`_
+* And?
 
-Example: Golden Spike Custom Installation
+
+Example: Golden Spike custom installation
 =========================================
 
 A user wishes to run the Golden Spike example pipeline. 
