@@ -18,38 +18,52 @@ Quickstart for data exploration
 
 These instructions will equip you with the maximal set of features, including engines to generate mock data, degraders to introduce realistic imperfections to the mock data, algorithms to characterize photo-z uncertainties, and metrics to evaluate results.
 
-Create a new conda environment:
+.. tabs::
 
-.. code-block:: bash
+   .. tab:: Mac M1+
 
-    conda create -y --name [your-env-name] pip python=3.10 h5py 
-    conda activate [your-env-name]
+      Create a new conda environment:
 
-*Check: is h5py necessary? Do we include the python=3.10? when decision made
-update this in following section as well.*
+      .. code-block:: bash
 
-If you are using a Mac with an M1+ chip, you will need to install healpy with
-conda:
+          conda create -y --name [your-env-name] pip python=3.10
+          conda activate [your-env-name]
+          conda install -c conda-forge healpy
+          pip install pz-rail
+        
+      RAIL provides an extensive set of demonstrative Jupyter notebooks, including the Golden Spike end-to-end demo, that you can access here on ReadTheDocs, or you can install `pz-rail` from source to get them on your local machine:
 
-.. code-block:: bash
+      .. code-block:: bash
 
-    conda install -c conda-forge healpy
+          git clone git@github.com:LSSTDESC/RAIL.git
+          cd RAIL
+          pip install .
+        
+      *This doesn't make use of the conditional install script stuff*
 
-Now, you can install RAIL:
 
-.. code-block:: bash
+   .. tab:: Not Mac M1+
 
-    pip install pz-rail
-    
-RAIL provides an extensive set of demonstrative Jupyter notebooks, including the Golden Spike end-to-end demo, that you can access here on ReadTheDocs, or you can install `pz-rail` from source to get them on your local machine:
+      Create a new conda environment:
 
-.. code-block:: bash
+      .. code-block:: bash
 
-    git clone git@github.com:LSSTDESC/RAIL.git
-    cd RAIL
-    pip install .
-    
-*This doesn't make use of the conditional install script stuff*
+          conda create -y --name [your-env-name] pip python=3.10
+          conda activate [your-env-name]
+          pip install pz-rail
+        
+      RAIL provides an extensive set of demonstrative Jupyter notebooks, including the Golden Spike end-to-end demo, that you can access here on ReadTheDocs, or you can install `pz-rail` from source to get them on your local machine:
+
+      .. code-block:: bash
+
+          git clone git@github.com:LSSTDESC/RAIL.git
+          cd RAIL
+          pip install .
+        
+      *This doesn't make use of the conditional install script stuff*
+
+
+
 
 Quickstart for at-scale pipeline execution
 ******************************************

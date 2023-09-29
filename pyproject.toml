@@ -32,6 +32,7 @@ dependencies = [
     "pz-hyperbolic-temp",
     "qp-prob[full]>=0.8.3",
     "scikit-learn",
+    "sphinx-tabs",
     "pzflow",
     "healpy",
     "photerr",
